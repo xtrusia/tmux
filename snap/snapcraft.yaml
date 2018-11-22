@@ -4,12 +4,12 @@ summary: tmux - multiplex terminal
 description: |
   tmux - multiplex temrinal
 
-confinement: strict
+confinement: classic
 grade: devel
 
 apps:
   tmux:
-    command: usr/bin/tmux
+    command: tmux
 
 parts:
   tmux:
