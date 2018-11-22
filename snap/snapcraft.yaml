@@ -15,7 +15,6 @@ parts:
   tmux:
     plugin: autotools
     source: .
-    configflags:
     build-packages:
       - libevent-dev
       - libncurses-dev
