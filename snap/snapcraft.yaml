@@ -1,0 +1,21 @@
+name: tmux
+version: 0
+summary: tmux - multiplex terminal
+description: |
+  tmux - multiplex temrinal
+
+confinement: strict
+grade: unstable
+
+apps:
+  tmux:
+    command: usr/bin/tmux
+
+parts:
+  tmux:
+    plugin: autotools
+    source: .
+    configflags:
+    build-packages:
+      - libevent-dev
+      - libncurses-dev
