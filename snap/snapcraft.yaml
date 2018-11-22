@@ -16,5 +16,6 @@ parts:
     plugin: autotools
     source: .
     build-packages:
+      - pkg-config
       - libevent-dev
       - libncurses-dev
